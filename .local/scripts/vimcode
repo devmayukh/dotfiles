@@ -1,0 +1,5 @@
+#!/bin/bash
+
+tmux new-session -d -s code 'vim'
+tmux split-window -h -p 15
+tmux a
